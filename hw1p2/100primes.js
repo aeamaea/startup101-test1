@@ -17,8 +17,8 @@ for (var i=2;i<=1000;i++) {
 	if (isprime(i)){
 		outarr.push(i);
 		count = count + 1;
-		if (count > 100) break;
+		if (count > 99) break;
 	}
 }
 
-console.log(outarr.join(", "));
+console.log(outarr.join(","));
