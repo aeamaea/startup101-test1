@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-# this function was stolen from here:
-# http://www.javascripter.net/faq/numberisprime.htm
+// this function was stolen from here:
+// http://www.javascripter.net/faq/numberisprime.htm
 
 var isprime = function (n) {
 	 if (isNaN(n) || !isFinite(n) || n%1 || n<2) return false; 
